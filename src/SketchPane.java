@@ -1,7 +1,3 @@
-//Assignment #7, CSE205, Arizona State University 
-//Name: Marina Nasralla
-//StudentID: 1221644437
-//Lecture time: MW 1:30-2:45
 //Description: This program allows you to draw various shapes. It also 
 //             allows you to undo or erase your drawings.
 
