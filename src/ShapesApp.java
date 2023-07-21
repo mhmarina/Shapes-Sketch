@@ -1,5 +1,5 @@
 //Description: This program allows you to draw various shapes. It also 
-//             allows you to undo or erase your drawings.
+//             allows you to undo or erase your drawings..
 
 import javafx.application.Application;
 import javafx.scene.Scene;
