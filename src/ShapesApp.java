@@ -5,7 +5,7 @@ import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class Assignment7 extends Application
+public class ShapesApp extends Application
 {
     public static final int WINSIZE_X = 700, WINSIZE_Y = 600;
     private final String WINTITLE = "Sketchy";
