@@ -141,9 +141,6 @@ public class SketchPane extends BorderPane {
 	private class MouseHandler implements EventHandler<MouseEvent> {
 		@Override
 		public void handle(MouseEvent event) {
-			// TASK 3: Implement the mouse handler for Triangle and Ellipse
-			
-			//**********************************************
 			//if ellipse is selected 
 			if (radioButtonEllipse.isSelected()) {
 				//Mouse is pressed
@@ -203,10 +200,6 @@ public class SketchPane extends BorderPane {
 					triangle.setStrokeWidth(Math.abs(currentStrokeWidth));
 				}
 			} //end of triangle
-				
-			//***********************
-				
-			// Rectangle Example given!
 			//If user chooses Rectangle
 				else if (radioButtonRectangle.isSelected()) {
 				//Mouse is pressed
@@ -238,9 +231,7 @@ public class SketchPane extends BorderPane {
 	}
 	
 //Undo and Erase Button Handlers. 	
-	
-
-	private class ButtonHandler implements EventHandler<ActionEvent> {
+		private class ButtonHandler implements EventHandler<ActionEvent> {
 		@Override
 		public void handle(ActionEvent event) {
 						
@@ -280,8 +271,7 @@ public class SketchPane extends BorderPane {
 						tempList.add(s);
 						}
 					shapeList.clear();
-					sketchCanvas.getChildren().clear();
-					
+					sketchCanvas.getChildren().clear();	
 				}
 				
 			}
@@ -302,7 +292,6 @@ public class SketchPane extends BorderPane {
 	private class ColorHandler implements EventHandler<ActionEvent> {
 		@Override
 		public void handle(ActionEvent event) {
-			// TASK 5: Implement the color handler		
 //			colorLabels = new String[] { "black", "grey", "yellow", "gold", "orange", "dark red",
 //			"purple", "hot pink", "teal", "deep sky blue", "lime"
 			
@@ -329,7 +318,6 @@ public class SketchPane extends BorderPane {
 	private class WidthHandler implements EventHandler<ActionEvent> {
 		@Override
 		public void handle(ActionEvent event){
-			// TASK 6: Implement the stroke width handler
 			//The stroke width selected by the user is parsed as Integer and assigned to the
 			//variable currentStrokeWidth.
 			String s = strokeWidthCombo.getValue();
